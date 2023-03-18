@@ -56,7 +56,6 @@ div.imagen-album {
 }
 .imagen-album picture img {
   border-radius: 20px;
-  min-width: 640px;
   max-width: 100%;
 }
 div.album-info {
