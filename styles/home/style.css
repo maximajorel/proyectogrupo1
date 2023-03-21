@@ -1,0 +1,10 @@
+body{
+    background-color: rgba(15, 3, 38,1);
+}
+.container{
+    flex-direction: row;
+}
+
+aside{
+
+}
