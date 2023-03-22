@@ -3,11 +3,11 @@
   width: 10px !important;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #222222 !important;
+  background-color: var(--hover-a);
   border-radius: 10px !important;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #3c3c3c !important;
+  background-color: #73fea4 !important;
 }
 :root {
   --header-bgcolor: rgba(0, 0, 0, 0.7);
@@ -21,15 +21,15 @@ header.main-header {
   position: sticky;
   top: 0;
   z-index: 99;
+  backdrop-filter: blur(10px) saturate(120%) !important;
+  -webkit-backdrop-filter: blur(10px) saturate(120%) !important;
 }
 nav.navbar-universal {
   background-color: var(--header-bgcolor) !important;
   color: white;
-  backdrop-filter: blur(10px) saturate(120%) !important;
-  -webkit-backdrop-filter: blur(10px) saturate(120%) !important;
-  min-height: 5rem;
+  /* min-height: 5rem; */
   padding-bottom: 1rem;
-  height: 100%;
+  height: 100% !important;
 }
 img.logo-header {
   width: 70px !important;

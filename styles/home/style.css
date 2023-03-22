@@ -1,3 +1,9 @@
+:root {
+  --violeta-bg: #0f0326;
+  --violeta-universal: #651ded;
+  --verde-universal: #1ed760;
+}
+
 body.home-body {
   background-color: rgba(15, 3, 38, 1);
 }
@@ -57,4 +63,32 @@ aside {
 .text-black {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
+}
+
+/* =================
+      aside
+================= */
+.div-contenedor-home {
+  position: sticky;
+  top: 7.5rem;
+  height: 40%;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.3rem;
+}
+input.input-buscar {
+  padding-left: 1rem;
+  width: 15rem;
+  margin-right: 0.3rem;
+  font-family: "Oswald", sans-serif;
+  font-size: 1rem;
+}
+div.contenedor-categorias-home a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+div.contenedor-categorias-home a:hover,
+div.contenedor-categorias-home a:focus {
+  color: var(--verde-universal);
 }

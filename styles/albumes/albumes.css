@@ -2,10 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Oswald", sans-serif;
 }
 body.albumes-body {
   background: linear-gradient(#cc5333, #23074d);
+  font-family: "Oswald", sans-serif;
 }
 
 h1 {

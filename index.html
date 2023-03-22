@@ -12,51 +12,82 @@
     />    
     <link href="/styles/home/style.css" rel="stylesheet" />
     <link rel="stylesheet" href="/styles/home/style.css" />
+    <link rel="stylesheet" href="/styles/universal/header.css">
     <!-- FUENTE PARA ICONOS (POR EJEMPLO LUPA DE CAMPO BUSQUEDA) -->    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Inicio</title>
+
   </head>
   <body>
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-    <h1>Proyecto 1 Rolling</h1>
-    <div>
-      <h2>Titulo 2</h2>
-    </div> 
-    
-=======
-    <h1>Proyecto 1 Rolling</h1>
-    <div>
-      <h2>Titulo 2</h2>
-    </div>
->>>>>>> 457a14a0aeb8f692fb1c3597613060847e2cdcfb
-    <h1>Proyecto1</h1>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia fuga,
-      vel modi voluptatum eaque reiciendis accusantium neque id nisi voluptas
-      repudiandae, accusamus unde provident. Dolores asperiores nam iure
-      sapiente repudiandae?
-    </p>
-<<<<<<< HEAD
-
-    <span>Project</span>
-    
-=======
-    <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat quis
-      vel neque enim unde nam nobis itaque a? Accusantium voluptas error itaque
-      a nostrum deleniti, aspernatur illum delectus eveniet molestiae?
-    </p>
->>>>>>> 457a14a0aeb8f692fb1c3597613060847e2cdcfb
-
-   <span>Project</span>
-  </body>
-=======
-    <!-- <header>
-      
-    </header> -->
-
+        <!-- Header -->
+        <header class="main-header">        
+          <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark navbar-universal" data-bs-theme="dark">
+            <div class="container-fluid logo-area-header">
+              <a class="navbar-brand" href="/index.html"><img class="logo-header" src="/assets/images/logo-proyect/logo.gif" alt="Logo" width="70px"></a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ul-navbar-main">
+                  <li class="nav-item li-links-navbar">
+                    <a class="nav-link active" aria-current="page" class="a-links-navbar" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item li-links-navbar">
+                    <a class="nav-link" href="#">Álbumes</a>
+                  </li>
+                  <li class="nav-item li-links-navbar">
+                    <a class="nav-link" href="#">Próximos Lanzamientos</a>
+                  </li>
+                  <li class="nav-item li-links-navbar">
+                    <a class="nav-link" href="#">Sobre Nosotros</a>
+                  </li>  
+                  <li class="nav-item li-links-navbar">
+                    <a class="nav-link" href="#">Contacto</a>
+                  </li>  
+      <div class="contenedor-botones-header">
+                  <!-- ------ MODAL Botón ------     -->
+      <button type="button" class="btn btn-reset boton-suscribirse" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Suscribirse
+        </button> 
+        <a href="#" class="link-login">
+          <i class="fa-solid fa-user icono-login-usuario"></i>
+        </a>
+          </nav>  
+  
+      </header>
+               <!-- Modal Pop Pup-->
+               <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content pop-up-suscribirse">
+                    <div class="modal-header">
+                      <h2 class="modal-title fs-5" id="exampleModalLabel">¡Suscribite para recibir las ultimas novedades sobre la música!!</h2>
+                      <button type="button" class="btn-close boton-cerrar-popup" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">          
+                      <form action="" class="formulario-suscribirse">
+                        <label for="nombre">Nombre</label>
+                          <input type="text" id="nombre" name="nombre" maxlength="30">
+                        
+                        <label for="email">Su correo electronico</label>
+                          <input type="email" name="email" id="email" maxlength="255">
+                        
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary botones-popup" data-bs-dismiss="modal">Cancelar</button>
+                      <button type="button" class="btn btn-primary botones-popup">Suscribirme ahora</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
     <main class="container-fluid">
       <!-- El siguiente div es para el carousel -->
       <div id="carouselExampleDark" class="carousel carousel-dark slide">
@@ -174,10 +205,10 @@
       <!-- el carousel llega hasta aquí -->
 
       <!-- CONTENEDOR QUE CONTIENE A LA BARRA LATERAL Y A LA COLUMNA PRINCIPAL -->
-      <div class="row" style="background-color: red">
+      <div class="row">
 
         <!-- COLUMNA PRINCIPAL -->
-        <div class="col-sm-12 col-md-10" style="background-color: #0F0326">
+        <div class="col-sm-12 col-md-9" style="background-color: #0F0326">
           <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
               <div class="card h-100 bg-transparent">
@@ -519,23 +550,24 @@
           </div>
         </div>
         <!-- BARRA LATERAL -->
-        <aside class="col-sm-12 col-md-2" style="background-color: #0F0326">
-          <div class="col-sm-12 col-md-4 mt-3 px-2">
-            <div class="asideIndexBar text-light d-flex flex-column sticky-top">
+        <aside class="col-md-3">
+          <div class="div-contenedor-home">
+            <div>
               <p>¿Buscas algo en especial?</p>
               <form class="d-flex mt-0">
                 <input
-                  class="text-black rounded-pill w-100"
+                  class="text-black rounded-pill input-buscar"
                   type="search"
-                  placeholder=""
+                  placeholder="Busca dentro del sitio"                  
                   aria-label="Search"
+                  minlength="1"
                 />
                 <a href="" class="btn btn-outline-light text-center">Buscar</a>
               </form>
               <!--CATEGORIAS-->
               <br />
-              <div class="accordion-body d-flex flex-column">
-                <h5>CATEGORIAS</h5>
+              <div class="accordion-body d-flex flex-column contenedor-categorias-home">
+                <h5>CATEGORIAS:</h5>
                 <a href="" class="categoriaMusical">Ver todas las categorías</a>
                 <br />
                 <a href="" class="categoriaMusical">Rock Nacional</a>
