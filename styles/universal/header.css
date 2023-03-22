@@ -14,13 +14,6 @@
   --hover-a: #1ed760;
 }
 
-body {
-  background-image: url(/ab67616d0000b27349d694203245f241a1bcaa72.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 /* ======================
         Header 
 ====================== */
@@ -37,6 +30,9 @@ nav.navbar-universal {
   min-height: 5rem;
   padding-bottom: 1rem;
   height: 100%;
+}
+img.logo-header {
+  width: 70px !important;
 }
 nav.navbar-universal a {
   color: white;

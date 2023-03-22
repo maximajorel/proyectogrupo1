@@ -17,7 +17,7 @@
   --color-apple-music: #fb233b;
   --color-amazon-music: #4300ff;
 }
-body {
+body.single-post-body {
   background-image: var(--album-image) !important;
   min-height: 100vh;
   background-attachment: fixed;

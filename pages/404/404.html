@@ -1,30 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/pages/404/404.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Orbitron&display=swap" rel="stylesheet">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/404/404.css" />
+    <link rel="stylesheet" href="/styles/universal/header.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo&family=Orbitron&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <title>Error 404</title>
     
-</head>
-<body>
-<div class="container">
-   <div class="imagen">
-    <img src="img/404.jpeg" alt="error">
-   </div>
-    <h1 class="titulo">La página que ha solicitado no se encuentra disponible.</h1>
-        
-    <button>
-        <span class="button_top"> 
-            Volver atrás
-        </span>
-    </button>
-</div>
+  </head>
+  <body class="error-404">   
+  <!-- Header -->
+<header class="main-header">        
+                <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark navbar-universal" data-bs-theme="dark">
+                  <div class="container-fluid logo-area-header">
+                    <a class="navbar-brand" href="/index.html"><img src="/assets/images/logo-proyect/logo.gif" alt="Logo" class="logo-header" width="70px"></a>
+                    <button
+                      class="navbar-toggler"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#navbarNav"
+                      aria-controls="navbarNav"
+                      aria-expanded="false"
+                      aria-label="Toggle navigation"
+                    >
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav ul-navbar-main">
+                        <li class="nav-item li-links-navbar">
+                          <a class="nav-link active" aria-current="page" class="a-links-navbar" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item li-links-navbar">
+                          <a class="nav-link" href="#">Álbumes</a>
+                        </li>
+                        <li class="nav-item li-links-navbar">
+                          <a class="nav-link" href="#">Próximos Lanzamientos</a>
+                        </li>
+                        <li class="nav-item li-links-navbar">
+                          <a class="nav-link" href="#">Sobre Nosotros</a>
+                        </li>  
+                        <li class="nav-item li-links-navbar">
+                          <a class="nav-link" href="#">Contacto</a>
+                        </li>  
+            <div class="contenedor-botones-header">
+                        <!-- ------ MODAL Botón ------     -->
+            <button type="button" class="btn btn-reset boton-suscribirse" data-bs-toggle="modal" data-bs-target="#modal-suscribirse">
+                Suscribirse
+              </button> 
+              <a href="#" class="link-login">
+                <i class="fa-solid fa-user icono-login-usuario"></i>
+              </a>
+                </nav>      
+ </header>
+ <!-- Modal Pop Pup-->
+ <div class="modal fade" id="modal-suscribirse" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content pop-up-suscribirse">
+                            <div class="modal-header">
+                              <h2 class="modal-title fs-5" id="exampleModalLabel">¡Suscribite para recibir las ultimas novedades sobre la música!!</h2>
+                              <button type="button" class="btn-close boton-cerrar-popup" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">          
+                              <form action="" class="formulario-suscribirse">
+                                <label for="nombre">Nombre</label>
+                                  <input type="text" id="nombre" name="nombre" maxlength="30">
+                                
+                                <label for="email">Su correo electronico</label>
+                                  <input type="email" name="email" id="email" maxlength="255">
+                                
+                              </form>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary botones-popup" data-bs-dismiss="modal">Cancelar</button>
+                              <button type="button" class="btn btn-primary botones-popup">Suscribirme ahora</button>
+                            </div>
+                          </div>
+                        </div>
+ </div>
+    <div class="container">
+      <div class="imagen">
+        <img src="/assets/images/404/404.jpeg" alt="error" />
+      </div>
+      <h1 class="titulo">
+        La página que ha solicitado no se encuentra disponible.
+      </h1>
 
-</body>
+      <button>
+        <span class="button_top"> Volver atrás </span>
+      </button>
+    </div>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </html>
