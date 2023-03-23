@@ -4,8 +4,11 @@
     box-sizing: border-box;
 }
 
- body {
-    background-color: rgb(199, 28, 28);
+.body-contactus {
+    
+    background: #41295a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #41295a, #2f0743); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(#41295a, #651DED, #2f0743); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
  }
 
  .titulo-contact {
@@ -28,7 +31,7 @@
 .container-ContactUs {
     display: flex;
     flex-direction: column;
-        background-color: rgba(12, 12, 12, 0.205);
+        background-color: rgba(0, 0, 0, 0.603);
         width: 500px;
         height: 400px;
         padding: 1rem;
@@ -60,14 +63,18 @@
    color: white;
 }
 
-.container-ContactUs input {
+.container-ContactUs .hover-contact {
     width: 100%;
     padding: 5px 20px;    
     box-sizing: border-box;
     border: solid 1px;
-
     border-radius: 10px;
+    background-color: rgb(255, 255, 255);
   }
+
+ .hover-contact:hover {
+    background-color: rgb(188, 255, 175);
+ }
 
 .contact-label {
     margin-bottom: 0.5rem;
@@ -88,3 +95,12 @@ footer {
     width: 100px;
     height: 100px;
 }
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    color: rgba(0, 240, 0, 0.61);
+    font-size: 120%;
+}   
