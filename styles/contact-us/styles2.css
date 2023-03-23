@@ -13,13 +13,14 @@
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     #41295a,
-    #651ded,
+    #0f0326,
     #2f0743
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .titulo-contact {
-  padding-left: 130px;
+  padding-left: 140px;
+  font-family: 'Oswald', sans-serif;
 }
 .main-contactus {
   display: flex;
@@ -68,7 +69,7 @@
   color: white;
 }
 
-.container-ContactUs .hover-contact {
+.hover-contact {
   width: 100%;
   padding: 5px 20px;
   box-sizing: border-box;
@@ -77,8 +78,18 @@
   background-color: rgb(255, 255, 255);
 }
 
-.hover-contact:hover {
-  background-color: rgb(188, 255, 175);
+.hover-contact:focus {
+  background: #ffffff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #b4a3c7,
+    #dac4e6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    #d3c1e7,
+    #fffeff,
+    #ceabdf
+  );
 }
 
 .contact-label {
@@ -91,7 +102,17 @@
 }
 
 footer {
-  background-color: rgba(0, 0, 0, 0.603);
+ background: #41295a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #41295a,
+    #2f0743
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    #2d0972,
+    #190242,
+    #210430
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .card-footer {
@@ -104,7 +125,26 @@ footer a {
   color: white;
   text-decoration: none;
 }
+footer i:hover {
+  color: rgba(0, 240, 0, 0.61);
+  font-size: 120%;
+  transition: 0.3s;
+}
 footer a:hover {
   color: rgba(0, 240, 0, 0.61);
   font-size: 120%;
+  transition: 0.3s;
+}
+
+.font-footer {
+  font-family: 'Oswald', sans-serif;
+}
+
+.footer-input {
+  width: 69%;
+  padding: 5px 20px;
+  box-sizing: border-box;
+  border: solid 1px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
 }
