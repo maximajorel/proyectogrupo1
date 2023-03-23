@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <link rel="stylesheet" href="/styles/universal/header.css" />
     <meta charset="UTF-8" />
@@ -30,7 +30,7 @@
         <header class="main-header">        
           <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark navbar-universal" data-bs-theme="dark">
             <div class="container-fluid logo-area-header">
-              <a class="navbar-brand" href="/index.html"><img src="/assets/images/logo-proyect/logo.gif" alt="Logo" class="logo-header"></a>
+              <a class="navbar-brand" href="/index.html"><img class="logo-header" src="/assets/images/logo-proyect/logo.gif" alt="Logo" width="70px"></a>
               <button
                 class="navbar-toggler"
                 type="button"
@@ -45,55 +45,57 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ul-navbar-main">
                   <li class="nav-item li-links-navbar">
-                    <a class="nav-link active" aria-current="page" class="a-links-navbar" href="#">Inicio</a>
+                    <a class="nav-link active" aria-current="page" class="a-links-navbar" href="/index.html">Inicio</a>
                   </li>
                   <li class="nav-item li-links-navbar">
-                    <a class="nav-link" href="#">Álbumes</a>
+                    <a class="nav-link" href="/pages/albums/albums.html">Álbumes</a>
                   </li>
                   <li class="nav-item li-links-navbar">
-                    <a class="nav-link" href="#">Próximos Lanzamientos</a>
+                    <a class="nav-link" href="/pages/404/404.html">Próximos Lanzamientos</a>
                   </li>
                   <li class="nav-item li-links-navbar">
-                    <a class="nav-link" href="#">Sobre Nosotros</a>
+                    <a class="nav-link" href="/pages/about-us/about-us.html">Sobre Nosotros</a>
                   </li>  
                   <li class="nav-item li-links-navbar">
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link" href="/pages/contact-us/contact-us.html">Contacto</a>
                   </li>  
       <div class="contenedor-botones-header">
                   <!-- ------ MODAL Botón ------     -->
-      <button type="button" class="btn btn-reset boton-suscribirse" data-bs-toggle="modal" data-bs-target="#modal-suscribirse">
+      <button type="button" class="btn btn-reset boton-suscribirse" data-bs-toggle="modal" data-bs-target="#exampleModal">
           Suscribirse
         </button> 
-        <a href="#" class="link-login">
+        <a href="/pages/login/login.html" class="link-login">
           <i class="fa-solid fa-user icono-login-usuario"></i>
         </a>
-          </nav>      
+          </nav>  
       </header>
-                 <!-- Modal Pop Pup-->
-                 <div class="modal fade" id="modal-suscribirse" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                  <div class="modal-dialog">
-                    <div class="modal-content pop-up-suscribirse">
-                      <div class="modal-header">
-                        <h2 class="modal-title fs-5" id="exampleModalLabel">¡Suscribite para recibir las ultimas novedades sobre la música!!</h2>
-                        <button type="button" class="btn-close boton-cerrar-popup" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
-                      <div class="modal-body">          
-                        <form action="" class="formulario-suscribirse">
-                          <label for="nombre">Nombre</label>
-                            <input type="text" id="nombre" name="nombre" maxlength="30">
-                          
-                          <label for="email">Su correo electronico</label>
-                            <input type="email" name="email" id="email" maxlength="255">
-                          
-                        </form>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary botones-popup" data-bs-dismiss="modal">Cancelar</button>
-                        <button type="button" class="btn btn-primary botones-popup">Suscribirme ahora</button>
-                      </div>
+               <!-- Modal Pop Pup-->
+               <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content pop-up-suscribirse">
+                    <div class="modal-header">
+                      <h2 class="modal-title fs-5" id="exampleModalLabel">¡Suscribite para recibir las ultimas novedades sobre la música!!</h2>
+                      <button type="button" class="btn-close boton-cerrar-popup" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">          
+                      <form action="" class="formulario-suscribirse">
+                        <label for="nombre">Nombre</label>
+                          <input type="text" id="nombre" name="nombre" maxlength="30" required>
+                        
+                        <label for="email">Su correo electronico</label>
+                          <input type="email" name="email" id="email" maxlength="255" required>
+                        
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary botones-popup" data-bs-dismiss="modal">Cancelar</button>
+                      <a href="/pages/404/404.html">
+                      <button type="button" class="btn btn-primary botones-popup">Suscribirme ahora</button>
+                    </a>
                     </div>
                   </div>
                 </div>
+              </div>
     </body>
     <!-- Contenedor principal -->
     <div class="contenedor-principal">

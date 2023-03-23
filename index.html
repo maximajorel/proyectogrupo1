@@ -38,26 +38,26 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ul-navbar-main">
                   <li class="nav-item li-links-navbar">
-                    <a class="nav-link active" aria-current="page" class="a-links-navbar" href="#">Inicio</a>
+                    <a class="nav-link active" aria-current="page" class="a-links-navbar" href="/index.html">Inicio</a>
                   </li>
                   <li class="nav-item li-links-navbar">
-                    <a class="nav-link" href="#">Álbumes</a>
+                    <a class="nav-link" href="/pages/albums/albums.html">Álbumes</a>
                   </li>
                   <li class="nav-item li-links-navbar">
-                    <a class="nav-link" href="#">Próximos Lanzamientos</a>
+                    <a class="nav-link" href="/pages/404/404.html">Próximos Lanzamientos</a>
                   </li>
                   <li class="nav-item li-links-navbar">
-                    <a class="nav-link" href="#">Sobre Nosotros</a>
+                    <a class="nav-link" href="/pages/about-us/about-us.html">Sobre Nosotros</a>
                   </li>  
                   <li class="nav-item li-links-navbar">
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link" href="/pages/contact-us/contact-us.html">Contacto</a>
                   </li>  
       <div class="contenedor-botones-header">
                   <!-- ------ MODAL Botón ------     -->
       <button type="button" class="btn btn-reset boton-suscribirse" data-bs-toggle="modal" data-bs-target="#exampleModal">
           Suscribirse
         </button> 
-        <a href="#" class="link-login">
+        <a href="/pages/login/login.html" class="link-login">
           <i class="fa-solid fa-user icono-login-usuario"></i>
         </a>
           </nav>  
@@ -74,16 +74,18 @@
                     <div class="modal-body">          
                       <form action="" class="formulario-suscribirse">
                         <label for="nombre">Nombre</label>
-                          <input type="text" id="nombre" name="nombre" maxlength="30">
+                          <input type="text" id="nombre" name="nombre" maxlength="30" required>
                         
                         <label for="email">Su correo electronico</label>
-                          <input type="email" name="email" id="email" maxlength="255">
+                          <input type="email" name="email" id="email" maxlength="255" required>
                         
                       </form>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary botones-popup" data-bs-dismiss="modal">Cancelar</button>
+                      <a href="/pages/404/404.html">
                       <button type="button" class="btn btn-primary botones-popup">Suscribirme ahora</button>
+                    </a>
                     </div>
                   </div>
                 </div>
