@@ -205,3 +205,6 @@ div.artist-in-album {
     justify-content: center;
   }
 }
+footer {
+  background-color: #0b021d !important;
+}

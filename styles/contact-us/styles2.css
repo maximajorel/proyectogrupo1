@@ -5,22 +5,14 @@
 }
 
 .body-contactus {
-  background: #41295a; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #41295a,
-    #2f0743
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    #41295a,
-    #0f0326,
-    #2f0743
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #41295a;
+  background: -webkit-linear-gradient(to right, #41295a, #2f0743);
+  background: linear-gradient(#41295a, #0f0326, #2f0743);
 }
 
 .titulo-contact {
   padding-left: 140px;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 .main-contactus {
   display: flex;
@@ -85,11 +77,7 @@
     #b4a3c7,
     #dac4e6
   ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    #d3c1e7,
-    #fffeff,
-    #ceabdf
-  );
+  background: linear-gradient(#d3c1e7, #fffeff, #ceabdf);
 }
 
 .contact-label {
@@ -99,52 +87,4 @@
 .map {
   margin: 1rem;
   border-radius: 15px;
-}
-
-footer {
- background: #41295a; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #41295a,
-    #2f0743
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    #2d0972,
-    #190242,
-    #210430
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.card-footer {
-  display: flex;
-  width: 100px;
-  height: 100px;
-}
-
-footer a {
-  color: white;
-  text-decoration: none;
-}
-footer i:hover {
-  color: rgba(0, 240, 0, 0.61);
-  font-size: 120%;
-  transition: 0.3s;
-}
-footer a:hover {
-  color: rgba(0, 240, 0, 0.61);
-  font-size: 120%;
-  transition: 0.3s;
-}
-
-.font-footer {
-  font-family: 'Oswald', sans-serif;
-}
-
-.footer-input {
-  width: 69%;
-  padding: 5px 20px;
-  box-sizing: border-box;
-  border: solid 1px;
-  border-radius: 10px;
-  background-color: rgb(255, 255, 255);
 }

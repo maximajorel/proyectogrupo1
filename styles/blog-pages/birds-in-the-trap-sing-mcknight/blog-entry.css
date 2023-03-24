@@ -186,6 +186,14 @@ div.artist-in-album {
     text-align: center;
   }
 }
+/* 
+================================================================
+Cambio el color del footer para tapar la imagen del cover album
+================================================================ */
+
+footer {
+  background-color: #0b021d;
+}
 @media screen and (max-width: 1024px) {
   .artist-info {
     width: 40%;
