@@ -11,7 +11,7 @@
 }
 
 .title-contact {
-  padding-left: 80px;
+  padding-left: 140px;
   font-family: "Oswald", sans-serif;
 }
 .main-contactus {
@@ -85,12 +85,15 @@
 }
 
 .container-map {
-  width: 100vh;
+  width: 550px;
+  height: 400px;
+  
 }
 .map {
-  margin: 1rem; 
+   margin: 1rem;
   border-radius: 15px;
   width: 500px;
   height: 400px;
+  
 
 }
