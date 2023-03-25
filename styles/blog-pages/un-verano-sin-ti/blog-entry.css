@@ -201,3 +201,11 @@ div.artist-in-album {
     justify-content: center;
   }
 }
+/* 
+================================================================
+Cambio el color del footer para tapar la imagen del cover album
+================================================================ */
+
+footer {
+  background-color: #0b021d;
+}

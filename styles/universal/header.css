@@ -23,6 +23,7 @@ header.main-header {
   z-index: 99;
   backdrop-filter: blur(10px) saturate(120%) !important;
   -webkit-backdrop-filter: blur(10px) saturate(120%) !important;
+  font-family: "Oswald", sans-serif;
 }
 nav.navbar-universal {
   background-color: var(--header-bgcolor) !important;
@@ -30,6 +31,7 @@ nav.navbar-universal {
   /* min-height: 5rem; */
   padding-bottom: 1rem;
   height: 100% !important;
+  text-transform: uppercase;
 }
 img.logo-header {
   width: 70px !important;
@@ -48,6 +50,7 @@ button.boton-suscribirse {
   color: white;
   width: 40%;
   font-size: 1rem;
+  text-transform: uppercase;
 }
 button.boton-suscribirse:hover,
 button.boton-suscribirse:focus,
@@ -92,6 +95,7 @@ i.icono-login-usuario {
   color: white !important;
   backdrop-filter: blur(10px) saturate(120%) !important;
   -webkit-backdrop-filter: blur(10px) saturate(120%) !important;
+  font-family: "Oswald", sans-serif;
 }
 .formulario-suscribirse {
   display: flex !important;
