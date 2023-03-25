@@ -11,7 +11,7 @@
 }
 
 .title-contact {
-  padding-left: 140px;
+  /* padding-left: 140px; */
   font-family: "Oswald", sans-serif;
 }
 .main-contactus {
@@ -26,7 +26,17 @@
   flex-direction: row;
   justify-content: center;
 }
-
+.container-form-1 {
+  display: flex;
+  flex-direction: column;
+  
+  width: 500px;
+  height: 400px;
+  padding: 1rem;
+  margin: 1rem;
+  color: white;
+  border-radius: 15px;
+}
 .container-form {
   display: flex;
   flex-direction: column;
@@ -85,15 +95,20 @@
 }
 
 .container-map {
-  width: 550px;
+  margin: 1rem;
+  width: 500px;
   height: 400px;
   
 }
 .map {
-   margin: 1rem;
+   
   border-radius: 15px;
   width: 500px;
   height: 400px;
-  
+  }
 
+@media screen and (min-width:480px) {
+  .title-contact {
+    padding-left: 140px;
+  }
 }
