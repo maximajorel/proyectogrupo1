@@ -3,12 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-body.albumes-body {
-  background: linear-gradient(#cc5333, #23074d);
+.albumes-body {
+  background: linear-gradient(#0f0326, #2d0972);
   font-family: "Oswald", sans-serif;
 }
 
-h1 {
+.titleh1 {
   color: #ffffff;
 }
 
@@ -37,6 +37,7 @@ h1 {
   height: 500px;
   margin-bottom: 12px;
   box-shadow: 0px 0px 3px 0px #000000;
+  border-radius: 20px;
 }
 
 .imagen img {
@@ -44,6 +45,7 @@ h1 {
   height: 100%;
   object-fit: cover;
   border-radius: 20px;
+  box-shadow: 0px 0px 3px 0px #000000;
 }
 
 .overlay {
@@ -55,6 +57,7 @@ h1 {
   height: 0;
   overflow: hidden;
   transition: 0.5s ease;
+  border-radius: 20px;
 }
 
 .overlay h2 {
