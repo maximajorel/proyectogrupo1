@@ -182,6 +182,79 @@ div.artist-in-album {
     text-align: center;
   }
 }
+/* 
+================================================================
+                      Seccion comentarios
+================================================================ */
+.coments-section {
+  background-color: var(--background);
+  padding-left: 1rem;
+  color: white;
+  font-family: "Oswald", sans-serif;
+}
+.form-comments-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form.comment-form {
+  display: flex;
+  flex-direction: column;
+}
+form.comment-form label {
+  font-size: 1.2rem;
+}
+.input-comment-form {
+  width: 20rem;
+  margin-top: 0.3rem;
+}
+.button-comment-form {
+  width: 20rem;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: white solid 2px;
+  color: white;
+}
+div.container-all-comments {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+div.comment {
+  background-color: rgba(0, 0, 0, 0.335);
+  width: 40%;
+  padding: 2rem;
+  border-radius: 20px;
+}
+.porfile-info {
+  display: flex;
+  align-items: center;
+}
+img.porfile-picture-comment {
+  max-width: 50px;
+  border-radius: 100%;
+}
+h4.name-person-comment {
+  margin-left: 0.5rem;
+}
+.comment-text {
+  margin-top: 1rem;
+}
+@media screen and (max-width: 768px) {
+  div.comment {
+    width: 80%;
+  }
+}
+
+/* =============================
+    Fin area comentarios
+============================= */
+
 @media screen and (max-width: 1024px) {
   .artist-info {
     width: 40%;
