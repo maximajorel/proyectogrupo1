@@ -3,12 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-body.albumes-body {
-  background: linear-gradient(#cc5333, #23074d);
+.albumes-body {
+  background: linear-gradient(#0f0326, #2d0972);
   font-family: "Oswald", sans-serif;
 }
 
-h1 {
+.titleh1 {
   color: #ffffff;
 }
 
@@ -37,6 +37,7 @@ h1 {
   height: 500px;
   margin-bottom: 12px;
   box-shadow: 0px 0px 3px 0px #000000;
+  border-radius: 20px;
 }
 
 .imagen img {
@@ -44,6 +45,7 @@ h1 {
   height: 100%;
   object-fit: cover;
   border-radius: 20px;
+  box-shadow: 0px 0px 3px 0px #000000;
 }
 
 .overlay {
@@ -55,6 +57,7 @@ h1 {
   height: 0;
   overflow: hidden;
   transition: 0.5s ease;
+  border-radius: 20px;
 }
 
 .overlay h2 {
@@ -66,6 +69,32 @@ h1 {
   left: 50%;
   text-align: center;
   transform: translate(-50%, -50%);
+}
+
+.overlay h2 a {
+  padding: 10px 20px;
+  border: none;
+  font-size: 17px;
+  color: #ffffff;
+  border-radius: 7px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+}
+
+.overlay h2 a {
+  background: #1ed760;
+  box-shadow: 0 0 25px #1ed760;
+  text-decoration: none;
+}
+
+.overlay h2 a:hover {
+  box-shadow: 0 0 5px #1ed760,
+              0 0 25px #1ed760,
+              0 0 50px #1ed760,
+              0 0 100px #1ed760;
 }
 
 .imagen:hover .overlay {
@@ -100,3 +129,4 @@ h1 {
     width: 80%;
   }
 }
+

@@ -8,6 +8,7 @@
   background: #41295a;
   background: -webkit-linear-gradient(to right, #41295a, #2f0743);
   background: linear-gradient(#41295a, #0f0326, #2f0743);
+  min-height: 100vh;
 }
 
 .super-container-contactus {
@@ -32,7 +33,7 @@
 .container-form-1 {
   display: flex;
   flex-direction: column;
-  
+
   width: 500px;
   height: 400px;
   padding: 1rem;
@@ -101,29 +102,24 @@
   margin: 1rem;
   width: 550px;
   height: 400px;
-  
 }
 .map {
-   
   border-radius: 15px;
   width: 500px;
   height: 400px;
-  }
+}
 
-
-@media screen and (min-width:480px) {
+@media screen and (min-width: 480px) {
   .title-contact {
     padding-left: 140px;
   }
 }
 
-
-@media screen and (max-width:480px) {
+@media screen and (max-width: 480px) {
   .map {
     border-radius: 15px;
     width: 250px;
     height: 200px;
-    
   }
   .container-map {
     display: flex;
@@ -133,13 +129,13 @@
     justify-content: start;
     width: 250px;
     height: 200px;
-    }
-    .main-contactus {
-      display: flex;
-      flex-direction: column;
-      justify-content: start;
-      color: white;
-      margin: 1rem;
-      padding: 1rem;
+  }
+  .main-contactus {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    color: white;
+    margin: 1rem;
+    padding: 1rem;
+  }
 }
-
