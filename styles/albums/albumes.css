@@ -71,6 +71,32 @@
   transform: translate(-50%, -50%);
 }
 
+.overlay h2 a {
+  padding: 10px 20px;
+  border: none;
+  font-size: 17px;
+  color: #ffffff;
+  border-radius: 7px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+}
+
+.overlay h2 a {
+  background: #1ed760;
+  box-shadow: 0 0 25px #1ed760;
+  text-decoration: none;
+}
+
+.overlay h2 a:hover {
+  box-shadow: 0 0 5px #1ed760,
+              0 0 25px #1ed760,
+              0 0 50px #1ed760,
+              0 0 100px #1ed760;
+}
+
 .imagen:hover .overlay {
   height: 100%;
   cursor: pointer;
@@ -103,3 +129,4 @@
     width: 80%;
   }
 }
+
