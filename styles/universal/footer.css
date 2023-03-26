@@ -2,6 +2,7 @@ footer {
   background-color: rgba(0, 0, 0, 0.7);
   backdrop-filter: blur(10px) saturate(120%) !important;
   -webkit-backdrop-filter: blur(10px) saturate(120%) !important;
+  margin-top: 1rem;
 }
 
 .card-footer {
@@ -38,19 +39,16 @@ footer a:hover {
   background-color: rgb(255, 255, 255);
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width: 480px) {
   .footer-title {
     padding-left: 45px;
-    
   }
 
   .footer-title-dos {
     margin: 10px;
   }
-.font-responsive {
-  font-size: 15px;
-  padding-left: 65px;
-}
-  
-
+  .font-responsive {
+    font-size: 15px;
+    padding-left: 65px;
+  }
 }
