@@ -41,16 +41,16 @@ footer a:hover {
 @media screen and (max-width:480px) {
   .footer-title {
     padding-left: 45px;
-    font-size: 30px;
+    
   }
 
   .footer-title-dos {
-    padding-left: 60px;
+    margin: 10px;
   }
-  .font-responsive {
-    font-size: 30px;
-    padding-left: 15px;
-  }
+.font-responsive {
+  font-size: 15px;
+  padding-left: 65px;
+}
   
 
 }
