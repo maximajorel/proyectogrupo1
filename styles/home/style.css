@@ -16,7 +16,13 @@ body.home-body {
   border: 0;
   
 }
-
+.c-item{
+  height: 480px;
+}
+.c-img{
+  height: 100%;
+  filter: brightness(0.9);
+}
 body {
   background-color: rgba(15, 3, 38, 1);
 }
@@ -42,18 +48,7 @@ aside {
   margin: 50%;
 }
 
-/* Eliminé esta porque no era necesaria */
-/* .cards_HomePrincipal{
-    margin-left: 0%;
-    border-left: 0cm;
-    max-width: 1024px;
-    width: 100%;
-    margin: 0;
-    text-align: left;
-    flex-direction: row;
-    flex-wrap: wrap;
-    position: left;
-} */
+
 .row {
   margin: auto;
 }
@@ -96,13 +91,8 @@ div.contenedor-categorias-home a:focus {
   color: var(--verde-universal);
 }
 
-
-.carousel {
-  position: relative;
- 
-}
-
-.carousel-inner-publicidadHome{
+#carouselAdvertisingIndex{
+  display: flex!important;
   margin-top: 5%;
-  
+  box-sizing: content-box!important;
 }

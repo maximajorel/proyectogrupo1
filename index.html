@@ -5,9 +5,10 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
-  <link href="/styles/home/style.css" rel="stylesheet" />
+  
   <link rel="stylesheet" href="/styles/home/style.css" />
   <link rel="stylesheet" href="/styles/universal/header.css">
   <link rel="stylesheet" href="/styles/universal/footer.css">
@@ -97,68 +98,40 @@
   </div>
   <main class="container-fluid">
     <!-- El siguiente div es para el carousel -->
-    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+    <div id="carousel-HeaderHome" class="carousel slide carousel-fade" data-bs-ride="true">
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class=""
-          aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"
-          class="active" aria-current="true"></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"
-          class=""></button>
+        <button type="button" data-bs-target="#carousel-HeaderHome" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carousel-HeaderHome" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carousel-HeaderHome" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
       <div class="carousel-inner">
-        <div class="carousel-item" data-bs-interval="10000">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide"
-            preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>First slide</title>
-            <rect width="100%" height="100%" fill="#f5f5f5"></rect>
-            <img src="/assets/images/albumes/badbunyy.jpg" alt="">
-            <text x="50%" y="50%" fill="#aaa" dy=".3em">First slide</text>
-          </svg>
+        <div class="carousel-item active c-item">
+          <img src="/assets/images/blog/temporada-de-reggaeton-2/artist-image/duki.jpg" class="d-block w-100 c-img" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>First slide label</h5>
-            <p>
-              Some representative placeholder content for the first slide.
-            </p>
+            <p>Some representative placeholder content for the first slide.</p>
           </div>
         </div>
-        <div class="carousel-item active" data-bs-interval="2000">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide"
-            preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#eee"></rect>
-            <text x="50%" y="50%" fill="#bbb" dy=".3em">Second slide</text>
-          </svg>
+        <div class="carousel-item c-item">
+          <img src="/assets/images/albumes/davidguetta.jpg" class="d-block w-100 c-img" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>Second slide label</h5>
-            <p>
-              Some representative placeholder content for the second slide.
-            </p>
+            <p>Some representative placeholder content for the second slide.</p>
           </div>
         </div>
-        <div class="carousel-item">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide"
-            preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#e5e5e5"></rect>
-            <text x="50%" y="50%" fill="#999" dy=".3em">Third slide</text>
-          </svg>
+        <div class="carousel-item c-item">
+          <img src="/assets/images/albumes/eminem.jpg" class="d-block w-100 c-img" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>Third slide label</h5>
-            <p>
-              Some representative placeholder content for the third slide.
-            </p>
+            <p>Some representative placeholder content for the third slide.</p>
           </div>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel-HeaderHome" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel-HeaderHome" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
@@ -167,23 +140,14 @@
 
     <!-- CONTENEDOR QUE CONTIENE A LA BARRA LATERAL Y A LA COLUMNA PRINCIPAL -->
     <div class="row">
-
       <!-- COLUMNA PRINCIPAL -->
       <div class="col-sm-12 col-md-9" style="background-color: #0F0326">
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
             <div class="card h-100 bg-transparent">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="0" xmlns="http://www.w3.org/2000/svg"
-                role="img" aria-label="Placeholder: Almbum N°1" preserveAspectRatio="xMidYMid slice"
-                focusable="false">
-                <title>Placeholder: Album N°1</title>
-                <rect width="100%" height="100%" fill="#868e96"></rect>
-                <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
-                  <img
-                    src="/assets/images/blog/birds-in-the-Trap-Sing-mcknight/cover-album/Birds in the Trap Sing McKnight.jpg"
-                    alt="Cover Art del album Birds in the Trap Sing McKnight">
-                </text>
-              </svg>
+              <img
+                src="/assets/images/blog/birds-in-the-Trap-Sing-mcknight/cover-album/Birds in the Trap Sing McKnight.jpg"
+                alt="Cover Art del album Birds in the Trap Sing McKnight">
               <div class="card text-center m-auto border-0 bg-transparent">
                 <h4 class="card-title text-light fw-bold text-center">
                   Birds in the Trap Sing McKnight
@@ -199,16 +163,8 @@
           </div>
           <div class="col">
             <div class="card h-100 bg-transparent">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="0" xmlns="http://www.w3.org/2000/svg"
-                role="img" aria-label="Placeholder: Album N°2" preserveAspectRatio="xMidYMid slice" focusable="false">
-                <title>Album N°2</title>
-                <rect width="100%" height="100%" fill="#868e96"></rect>
-                <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
-                  <img
-                    src="/assets/images/blog/cracker-island/cover-image/cover-art-cracker-island.jpg"
-                    alt="Cover Art del album Cracker Island">
-                </text>
-              </svg>
+              <img src="/assets/images/blog/cracker-island/cover-image/cover-art-cracker-island.jpg"
+                alt="Cover Art del album Cracker Island">
               <div class="card text-center m-auto border-0 bg-transparent">
                 <h4 class="card-title text-light fw-bold text-center">
                   Cracker Island
@@ -224,16 +180,8 @@
           </div>
           <div class="col">
             <div class="card h-100 bg-transparent">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="0" xmlns="http://www.w3.org/2000/svg"
-                role="img" aria-label="Placeholder: Almbum N°3" preserveAspectRatio="xMidYMid slice" focusable="false">
-                <title>Album N°3</title>
-                <rect width="100%" height="100%" fill="#868e96"></rect>
-                <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
-                  <img
-                    src="/assets/images/blog/un-verano-sin-ti/cover-image/coveralbum.jpg"
-                    alt="Cover Art del album Un Verano Sin Ti">
-                </text>
-              </svg>
+              <img src="/assets/images/blog/un-verano-sin-ti/cover-image/coveralbum.jpg"
+                alt="Cover Art del album Un Verano Sin Ti">
               <div class="card text-center m-auto border-0 bg-transparent">
                 <h4 class="card-title text-light fw-bold text-center">
                   Un Verano Sin Ti
@@ -251,16 +199,8 @@
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
             <div class="card h-100 bg-transparent">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="0" xmlns="http://www.w3.org/2000/svg"
-                role="img" aria-label="Placeholder: Album N°4" preserveAspectRatio="xMidYMid slice" focusable="false">
-                <title>Album N°4</title>
-                <rect width="100%" height="100%" fill="#868e96"></rect>
-                <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
-                  <img
-                    src="/assets/images/blog/temporada-de-reggaeton-2/cover-image/cover-album.jpg"
-                    alt="Cover Art del album Temporada de Reggaeton 2">
-                </text>
-              </svg>
+              <img src="/assets/images/blog/temporada-de-reggaeton-2/cover-image/cover-album.jpg"
+                alt="Cover Art del album Temporada de Reggaeton 2">
               <div class="card text-center m-auto border-0 bg-transparent">
                 <h4 class="card-title text-light fw-bold text-center">
                   Temporada de Reggaeton 2
@@ -276,16 +216,9 @@
           </div>
           <div class="col">
             <div class="card h-100 bg-transparent">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="0" xmlns="http://www.w3.org/2000/svg"
-                role="img" aria-label="Placeholder: Album N°5" preserveAspectRatio="xMidYMid slice" focusable="false">
-                <title>Album N°5</title>
-                <rect width="100%" height="100%" fill="#868e96"></rect>
-                <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
-                  <img
-                    src="/assets/images/blog/birds-in-the-Trap-Sing-mcknight/cover-album/Birds in the Trap Sing McKnight.jpg"
-                    alt="Cover Art del album Birds in the Trap Sing McKnight">
-                </text>
-              </svg>
+              <img
+                src="/assets/images/blog/birds-in-the-Trap-Sing-mcknight/cover-album/Birds in the Trap Sing McKnight.jpg"
+                alt="Cover Art del album Birds in the Trap Sing McKnight">
               <div class="card text-center m-auto border-0 bg-transparent">
                 <h4 class="card-title text-light fw-bold text-center">
                   EJEMPLO
@@ -301,16 +234,9 @@
           </div>
           <div class="col">
             <div class="card h-100 bg-transparent">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="0" xmlns="http://www.w3.org/2000/svg"
-                role="img" aria-label="Placeholder: Album N°6" preserveAspectRatio="xMidYMid slice" focusable="false">
-                <title>Album N°6</title>
-                <rect width="100%" height="100%" fill="#868e96"></rect>
-                <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
-                  <img
-                    src="/assets/images/blog/birds-in-the-Trap-Sing-mcknight/cover-album/Birds in the Trap Sing McKnight.jpg"
-                    alt="Cover Art del album Birds in the Trap Sing McKnight">
-                </text>
-              </svg>
+              <img
+                src="/assets/images/blog/birds-in-the-Trap-Sing-mcknight/cover-album/Birds in the Trap Sing McKnight.jpg"
+                alt="Cover Art del album Birds in the Trap Sing McKnight">
               <div class="card text-center m-auto border-0 bg-transparent">
                 <h4 class="card-title text-light fw-bold text-center">
                   EJEMPLO
@@ -328,16 +254,9 @@
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
             <div class="card h-100 bg-transparent">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="0" xmlns="http://www.w3.org/2000/svg"
-                role="img" aria-label="Placeholder: Album N°7" preserveAspectRatio="xMidYMid slice" focusable="false">
-                <title>Album N°7</title>
-                <rect width="100%" height="100%" fill="#868e96"></rect>
-                <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
-                  <img
-                    src="/assets/images/blog/birds-in-the-Trap-Sing-mcknight/cover-album/Birds in the Trap Sing McKnight.jpg"
-                    alt="Cover Art del album Birds in the Trap Sing McKnight">
-                </text>
-              </svg>
+              <img
+                src="/assets/images/blog/birds-in-the-Trap-Sing-mcknight/cover-album/Birds in the Trap Sing McKnight.jpg"
+                alt="Cover Art del album Birds in the Trap Sing McKnight">
               <div class="card text-center m-auto border-0 bg-transparent">
                 <h4 class="card-title text-light fw-bold text-center">
                   EJEMPLO
@@ -353,16 +272,9 @@
           </div>
           <div class="col">
             <div class="card h-100 bg-transparent">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="0" xmlns="http://www.w3.org/2000/svg"
-                role="img" aria-label="Placeholder: Album N°8" preserveAspectRatio="xMidYMid slice" focusable="false">
-                <title>Album N°8</title>
-                <rect width="100%" height="100%" fill="#868e96"></rect>
-                <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
-                  <img
-                    src="/assets/images/blog/birds-in-the-Trap-Sing-mcknight/cover-album/Birds in the Trap Sing McKnight.jpg"
-                    alt="Cover Art del album Birds in the Trap Sing McKnight">
-                </text>
-              </svg>
+              <img
+                src="/assets/images/blog/birds-in-the-Trap-Sing-mcknight/cover-album/Birds in the Trap Sing McKnight.jpg"
+                alt="Cover Art del album Birds in the Trap Sing McKnight">
               <div class="card text-center m-auto border-0 bg-transparent">
                 <h4 class="card-title text-light fw-bold text-center">
                   EJEMPLO
@@ -378,16 +290,11 @@
           </div>
           <div class="col">
             <div class="card h-100 bg-transparent">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="0" xmlns="http://www.w3.org/2000/svg"
-                role="img" aria-label="Placeholder: Album N°9" preserveAspectRatio="xMidYMid slice" focusable="false">
-                <title>Album N°9</title>
-                <rect width="100%" height="100%" fill="#868e96"></rect>
-                <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
-                  <img
-                    src="/assets/images/blog/birds-in-the-Trap-Sing-mcknight/cover-album/Birds in the Trap Sing McKnight.jpg"
-                    alt="Cover Art del album Birds in the Trap Sing McKnight">
-                </text>
-              </svg>
+
+              <img
+                src="/assets/images/blog/birds-in-the-Trap-Sing-mcknight/cover-album/Birds in the Trap Sing McKnight.jpg"
+                alt="Cover Art del album Birds in the Trap Sing McKnight">
+
               <div class="card text-center m-auto border-0 bg-transparent">
                 <h4 class="card-title text-light fw-bold text-center">
                   EJEMPLO
@@ -428,51 +335,55 @@
             </div>
           </div>
           <!-- CAROUSEL DE PUBLICIDAD -->
-          <div id="carouselAdvertisingIndex" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
-          <div class="carousel-inner-publicidadHome">
-            <div class="carousel-item">
-              <img src="/assets/images/advertising/Publicidad-1.png" class="d-block w-100" alt="Publicidad Internet Fibra Optica">
+          <div id="carouselAdvertisingIndex" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/assets/images/advertising/Publicidad-1.png" class="d-block w-100"
+                  alt="Publicidad Internet Fibra Optica">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/images/advertising/publicidad-2.png" class="d-block w-100"
+                  alt="Publicidad Clases Particulares Programacion">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/images/advertising/publicidad-3.png" class="d-block w-100"
+                  alt="Publicidad Rollincode Becas">
+              </div>
             </div>
-            <div class="carousel-item active">
-              <img src="/assets/images/advertising/publicidad-2.png" class="d-block w-100" alt="Publicidad Clases Particulares Programacion">
-            </div>
-            <div class="carousel-item">
-              <img src="/assets/images/advertising/publicidad-3.png" class="d-block w-100" alt="Publicidad Rollincode Becas">
-            </div>
-            </div>
-          </div>
           </div>
         </div>
-      </aside>
+    </div>
+    </aside>
     </div>
   </main>
-  
-  <!-- //////////////////////// /////   FOOTER   //////////////////////////////////////////////--> 
+
+  <!-- //////////////////////// /////   FOOTER   //////////////////////////////////////////////-->
   <footer class="container-fluid text-white">
     <div class="row">
       <!--///////////////////////////    SECTION 1   ///////////////////////////////////////////////  -->
       <div class="col-12 col-md-4 d-flex justify-content-center">
         <div>
-          <div class=""><h6 class="pt-3  font-footer fs-5 footer-title" >Siguenos en nuestras redes!</h6></div>
-          <div class="ps-5 d-flex justify-content-end flex-column font-responsive">
-            
-              <i class="fa-brands fa-facebook font-responsive"> <a class="font-footer" href="https://www.facebook.com/" target="_blank">Facebook</a> </i
-              >
-            
-              <i class="fa-brands fa-instagram font-responsive">
-                <a class="font-footer " href="https://www.instagram.com" target="_blank">Instagram</a></i 
-              >
-           <i class="fa-brands fa-twitter font-responsive">
-                <a class="font-footer " href="https://twitter.com" target="_blank">Twitter</a></i
-              >
-              <i class="fa-brands fa-whatsapp pb-2 font-responsive">
-                <a class="font-footer " href="https://wa.link/q0dmh4" target="_blank">Whatsapp</a></i
-              >
-              
-              
+          <div class="">
+            <h6 class="pt-3  font-footer fs-5 footer-title">Siguenos en nuestras redes!</h6>
           </div>
-          <div> 
-            <div class=""><h6 class=" font-footer fs-5 footer-title-dos">Agregamos novedades todas las semanas!</h6></div>
+          <div class="ps-5 d-flex justify-content-end flex-column font-responsive">
+
+            <i class="fa-brands fa-facebook font-responsive"> <a class="font-footer" href="https://www.facebook.com/"
+                target="_blank">Facebook</a> </i>
+
+            <i class="fa-brands fa-instagram font-responsive">
+              <a class="font-footer " href="https://www.instagram.com" target="_blank">Instagram</a></i>
+            <i class="fa-brands fa-twitter font-responsive">
+              <a class="font-footer " href="https://twitter.com" target="_blank">Twitter</a></i>
+            <i class="fa-brands fa-whatsapp pb-2 font-responsive">
+              <a class="font-footer " href="https://wa.link/q0dmh4" target="_blank">Whatsapp</a></i>
+
+
+          </div>
+          <div>
+            <div class="">
+              <h6 class=" font-footer fs-5 footer-title-dos">Agregamos novedades todas las semanas!</h6>
+            </div>
           </div>
         </div>
       </div>
@@ -480,29 +391,28 @@
       <div class="col-12 col-md-4 d-flex flex-column">
         <div class="pb-2 pt-2 d-flex justify-content-center">
           <div class="pt-3">
-            <img
-              src="/assets/images/logo-proyect/logo.gif"
-              class="card-footer"
-              alt="qsdqd"
-            />
+            <img src="/assets/images/logo-proyect/logo.gif" class="card-footer" alt="qsdqd" />
           </div>
 
-          
+
         </div>
-         <div class="d-flex justify-content-center pb-3 font-footer pe-2">Blogtify</div>
-        
+        <div class="d-flex justify-content-center pb-3 font-footer pe-2">Blogtify</div>
+
       </div>
-      <!-- ///////////////////////////////// SECTION 3   ////////////////////////////////////////// -->
+
       <div class="col-12 col-md-4 border-1 border-light">
         <div class="pt-3 pe-2 footer-title-dos ">
-          <h4 class="font-footer d-flex justify-content-center ps-4 pe-5">Suscríbite para las últimas novedades de la música!</h4>
+          <h4 class="font-footer d-flex justify-content-center ps-4 pe-5">Suscríbite para las últimas novedades de la
+            música!</h4>
         </div>
         <form class="footer-title-dos">
-        <div class=" d-flex justify-content-center pe-5 ps-0"> <input type="mail" class="footer-input pe-5" placeholder="ejemplo@correo.com" minlength="10" maxlength="40" required > <input type="submit" class="btn btn-outline-light ms-1" ></div>
-        
+          <div class=" d-flex justify-content-center pe-5 ps-0"> <input type="mail" class="footer-input pe-5"
+              placeholder="ejemplo@correo.com" minlength="10" maxlength="40" required> <input type="submit"
+              class="btn btn-outline-light ms-1"></div>
+
       </div>
       </form>
-      </div>
+    </div>
     </div>
     <!--  /////////////////////////////////////////////////////////////////////////////////// -->
   </footer>
