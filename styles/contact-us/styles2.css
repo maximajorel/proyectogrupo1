@@ -11,6 +11,9 @@
   min-height: 100vh;
 }
 
+.super-container-contactus {
+  min-height: 100vh;
+}
 .title-contact {
   /* padding-left: 140px; */
   font-family: "Oswald", sans-serif;
