@@ -1,13 +1,14 @@
-body.error-404 {
+.error-404 {
   background: #651ded;
   margin: 0;
   padding: 0;
   height: 100vh;
 }
 
-img {
+.error-image {
   width: 100%;
   border-radius: 30px;
+  background-color: #0f0326;
 }
 
 .container {
@@ -28,7 +29,7 @@ img {
   margin: 2.5rem;
 }
 
-button {
+.btn-eror {
   /* Variables */
   --button_radius: 0.75em;
   --button_color: #ffffff;
@@ -53,6 +54,10 @@ button {
   transition: transform 0.1s ease;
 }
 
+.btn-error .button_top{
+  text-decoration: none;
+}
+
 button:hover .button_top {
   /* Pull the button upwards when hovered */
   transform: translateY(-0.33em);
@@ -62,6 +67,8 @@ button:active .button_top {
   /* Push the button downwards when pressed */
   transform: translateY(0);
 }
+
+
 
 @media screen and (max-width: 650px) {
   .titulo {
