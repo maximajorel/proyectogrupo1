@@ -149,4 +149,7 @@ div.contenedor-categorias-home a:focus {
   #carouselAdvertisingIndex {
     display: none;
   }
+  .div-contenedor-home {
+    height: 4rem;
+  }
 }
