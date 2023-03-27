@@ -66,19 +66,20 @@ body {
   font-family: "Oswald", sans-serif;
 }
 
-.main-card {
+/* Lo siguiente era para intentar que se alinearan los botones y el contenido de las Cards de la columna principal pero por algun motivo no funciona */
+/* .main-card {
   height: 100%;
   display: flex;
   flex-direction: column;
 }
-.main-card .card {
+.main-card.body-card {
   display: flex;
   flex-direction: column;
 }
 
-.main-card .card .card-text-light {
-  flex-grow: 1 !important;
-}
+.main-card.body-card.card.text-light {
+  flex-grow: 1;
+} */
 
 aside {
   display: flex !important;
