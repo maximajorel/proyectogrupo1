@@ -120,7 +120,7 @@ aside {
   color: white;
   font-family: "Oswald", sans-serif;
   font-size: 1.3rem;
-  margin-bottom: 125%;
+  margin-bottom: 100%;
 }
 input.input-buscar {
   padding-left: 1rem;
@@ -148,5 +148,6 @@ div.contenedor-categorias-home a:focus {
 @media screen and (max-width: 425px) {
   #carouselAdvertisingIndex {
     display: none;
+    height: 0%;
   }
 }
