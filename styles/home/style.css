@@ -150,4 +150,7 @@ div.contenedor-categorias-home a:focus {
     display: none;
     height: 0%;
   }
+  .div-contenedor-home {
+    height: 4rem;
+  }
 }
