@@ -143,3 +143,9 @@ div.contenedor-categorias-home a:focus {
   margin-top: 5%;
   box-sizing: content-box !important;
 }
+
+@media screen and (max-width: 425px) {
+  #carouselAdvertisingIndex {
+    display: none;
+  }
+}
