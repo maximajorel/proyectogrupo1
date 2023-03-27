@@ -71,13 +71,13 @@ body {
   display: flex;
   flex-direction: column;
 }
-.main-card .card {
+.main-card.body-card {
   display: flex;
   flex-direction: column;
 }
 
-.main-card .card .card-text-light {
-  flex-grow: 1 !important;
+.main-card.body-card.card.text-light {
+  flex-grow: 1;
 }
 
 aside {
