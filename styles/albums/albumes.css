@@ -40,6 +40,10 @@
   border-radius: 20px;
   display: inline-block;
 }
+.imagen {
+  max-width: 350px;
+  max-height: 350px;
+}
 
 .imagen img {
   width: 100%;
@@ -47,7 +51,6 @@
   object-fit: cover;
   border-radius: 20px;
   box-shadow: 0px 0px 3px 0px #000000;
-  
 }
 
 .overlay {
@@ -107,7 +110,7 @@
 }
 
 .overlay h2 a::before {
-  content: '';
+  content: "";
   display: block;
   width: 0px;
   height: 86%;
@@ -147,7 +150,6 @@
   transition: box-shadow 0.2s ease-in;
 }
 
-
 .imagen:hover .overlay {
   height: 100%;
   cursor: pointer;
@@ -180,4 +182,3 @@
     width: 80%;
   }
 }
-
