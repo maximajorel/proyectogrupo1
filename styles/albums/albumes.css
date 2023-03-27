@@ -25,19 +25,20 @@
 
 .contenedor-imagenes {
   display: flex;
-  width: 85%;
-  margin: auto;
+  width: 100%;
+  margin: 0 auto;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 
 .contenedor-imagenes .imagen {
-  width: 33%;
+  width: 23%;
   position: relative;
   height: 500px;
   margin-bottom: 12px;
   box-shadow: 0px 0px 3px 0px #000000;
   border-radius: 20px;
+  display: inline-block;
 }
 
 .imagen img {
@@ -152,22 +153,22 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1500px) {
   .contenedor-imagenes {
     width: 95%;
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1300px) {
   .contenedor-imagenes {
-    width: 90%;
+    width: 100%;
   }
   .contenedor-imagenes .imagen {
-    width: 48%;
+    width: 32%;
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
   h1 {
     font-size: 22px;
   }
